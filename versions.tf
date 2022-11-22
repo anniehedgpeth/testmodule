@@ -1,10 +1,10 @@
 terraform {
   backend "remote" {
-    hostname = "annie.azure.ptfeacc.hashicorptest.com"
-    organization = "annie1-test-org"
+    hostname = "139.178.66.91"
+    organization = "hashi-annie"
 
     workspaces {
-      name = "new-workspace-here"
+      name = "testmodule"
     }
   }
 }
